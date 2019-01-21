@@ -1,0 +1,30 @@
+{
+	"sources" : ["Isengard", "Mordor"],
+	"Isengard" :
+	{
+		"aet" : "EFILM1",
+		"webviewer" : "http://127.0.0.1:8042/"
+	},
+	"Mordor" :
+	{
+		"aet" : "EFILM1",
+		"webviewer" : "http://127.0.0.1:8042/"
+	},
+	"Isengard_server" :
+	{
+		"resthost" : "http://127.0.0.1:8042/",
+		"dataDrive" : "c:",
+		"backupDrive" : "f:"
+	},
+	"Mordor_server" :
+	{
+		"resthost" : "http://127.0.0.1:8042/",
+		"dataDrive" : "g:",
+		"backupDrive" : "d:"
+	},
+	"secret" : "password",
+	"restTimeout" : 300000,
+	"tempFilesLifeTime" : 20,
+	"simultaneousThreads" : 10,
+	"compressionLevel" : 0
+}
